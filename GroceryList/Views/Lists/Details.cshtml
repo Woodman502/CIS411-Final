@@ -1,0 +1,34 @@
+﻿@model GroceryList.Models.List
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>List</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ListDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ListDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Customer.CFirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Customer.CFirstName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ListId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

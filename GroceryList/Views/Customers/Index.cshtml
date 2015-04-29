@@ -1,0 +1,63 @@
+﻿@model IEnumerable<GroceryList.Models.Customer>
+
+@{
+    ViewBag.Title = "Customers";
+}
+
+<h2>Customer List</h2>
+
+<p>
+    @Html.ActionLink("Add Customer", "Create", "Customers", htmlAttributes: new { @class = " button btn btn-lg btn-default" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CFirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CLastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CCity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CState)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CZipCode)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CFirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CLastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CCity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CState)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CZipCode)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CustomerId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CustomerId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CustomerId })
+        </td>
+    </tr>
+}
+
+</table>

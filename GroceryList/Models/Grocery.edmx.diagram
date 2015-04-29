@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5afd5d55133642cf933c8fb78753a6a6" Name="Diagram1">
+        <EntityTypeShape EntityType="GroceryModel.Category" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroceryModel.Customer" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroceryModel.ListDetail" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroceryModel.List" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroceryModel.Product" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroceryModel.Store" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <AssociationConnector Association="GroceryModel.FK_dbo_Products_dbo_Products_CategoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="GroceryModel.FK_dbo_Lists_dbo_Customers_CustomerId" ManuallyRouted="false" />
+        <AssociationConnector Association="GroceryModel.FK_dbo_ListDetails_dbo_Lists_ListId" ManuallyRouted="false" />
+        <AssociationConnector Association="GroceryModel.FK_dbo_ListDetails_dbo_Products_ProductId" ManuallyRouted="false" />
+        <AssociationConnector Association="GroceryModel.FK_dbo_ListDetails_dbo_Stores_StoreId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,141 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+
+    <!-- Marketing Icons Section -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                 All-In-One Grocery List Making Application
+            </h1>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4><i class="fa fa-fw fa-check"></i> Grocery List across devices</h4>
+                </div>
+                <div class="panel-body">
+                    <p>Are you tired of buying something from the store, to get home only to find out you didn't need it?  Our grocery list application gives you the ability to create and save your grocery list to any device.</p>
+                    @Html.ActionLink("Get Started", "../Account/Login", "", htmlAttributes: new { @class = " button btn btn-default" })
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4><i class="fa fa-fw fa-gift"></i> Free</h4>
+                </div>
+                <div class="panel-body">
+                    <p>The best thing about our application it's completely FREE! Just register and begin using our application from any device.</p>
+                    @Html.ActionLink("Register", "../Account/Register", "", htmlAttributes: new { @class = " button btn btn-default" })
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
+                </div>
+                <div class="panel-body">
+                    <p>Our simplistic interface is easy to navigate on even if you don't use applications for much other than Facebook.</p>
+                    @Html.ActionLink("Learn More", "About", "Home", htmlAttributes: new { @class = " button btn btn-default" })
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+    <!-- Portfolio Section -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">Multiple Products</h2>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <a href='@Url.Action("Index","Home")'>
+                <img class="img-responsive img-portfolio img-hover" src="~/Content/images/grocery1.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <a href='@Url.Action("Index","Home")'>
+                <img class="img-responsive img-portfolio img-hover" src="~/Content/images/cereal.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <a href='@Url.Action("Index","Home")'>
+                <img class="img-responsive img-portfolio img-hover" src="~/Content/images/grocery7.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <a href='@Url.Action("Index","Home")'>
+                <img class="img-responsive img-portfolio img-hover" src="~/Content/images/steak.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <a href='@Url.Action("Index","Home")'>
+                <img class="img-responsive img-portfolio img-hover" src="~/Content/images/drinks.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <a href='@Url.Action("Index","Home")'>
+                <img class="img-responsive img-portfolio img-hover" src="~/Content/images/seafood.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <!-- /.row -->
+    <!-- Features Section -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">App Features</h2>
+        </div>
+        <div class="col-md-6">
+            <p>The Grocery Application includes:</p>
+            <ul>
+                <li>
+                    <strong>List Making</strong>
+                </li>
+                <li>Finds nearest Store</li>
+                <li>Gives you directions</li>
+                <li>Over 500 Products</li>
+                <li>Unheralded Support</li>
+                <li>Delivery Service</li>
+                <li>Discounts</li>
+                <li>Works Across Devices</li>
+                <li>Coupons</li>
+            </ul>
+            <p>
+                Additionally, we offer a grocery delivery service that is priced to fit any budget or situation.  Let us deliver your groceries with the click of a button.
+               Forget about the hassles of the grocery run. We can make stocking your company's kitchen easy and affordable.
+               No long-­term commitments. Order today for tomorrow delivery. Pick a delivery time that works for you.            
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img class="img-responsive" src="~/Content/images/grocery-checklist.png" alt="">
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <hr>
+
+    <!-- Call to Action Section -->
+    <div class="well">
+        <div class="row">
+            <div class="col-md-8">
+                <p>With all of these features to choose from, and you're still reading. Save yourself time and  headache of trying to remember everything you need make a list now</p>
+            </div>
+            <div class="col-md-4">
+                @Html.ActionLink("Make List", "../ListDetails/Create", "", htmlAttributes: new { @class = " button btn btn-lg btn-default" })
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    
+
+</div>
+<!-- /.container -->
+
+

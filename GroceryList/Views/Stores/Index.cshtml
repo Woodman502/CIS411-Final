@@ -1,0 +1,62 @@
+﻿@model IEnumerable<GroceryList.Models.Store>
+
+@{
+    ViewBag.Title = "Stores";
+}
+
+<h2>Store List</h2>
+
+<p>
+    @Html.ActionLink("Add Store", "Create", "Stores", htmlAttributes: new { @class = " button btn btn-lg btn-default" })
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.StoreName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StoreAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StoreCity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StoreState)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StoreZipCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsSelected)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.StoreName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StoreAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StoreCity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StoreState)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StoreZipCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsSelected)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.StoreId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.StoreId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.StoreId })
+        </td>
+    </tr>
+}
+
+</table>

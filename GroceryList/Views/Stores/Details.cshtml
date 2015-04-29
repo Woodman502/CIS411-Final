@@ -1,0 +1,66 @@
+﻿@model GroceryList.Models.Store
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Store</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StoreName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StoreName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StoreAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StoreAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StoreCity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StoreCity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StoreState)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StoreState)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StoreZipCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StoreZipCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsSelected)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsSelected)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.StoreId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

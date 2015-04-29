@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GroceryModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Desription" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_dbo_Products_dbo_Products_CategoryId" FromRole="Categories" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CFirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CLastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CAddress" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="CCity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CState" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CZipCode" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Lists" Relationship="Self.FK_dbo_Lists_dbo_Customers_CustomerId" FromRole="Customers" ToRole="Lists" />
+  </EntityType>
+  <EntityType Name="ListDetail">
+    <Key>
+      <PropertyRef Name="ListDetailsId" />
+    </Key>
+    <Property Name="ListId" Type="Int32" Nullable="false" />
+    <Property Name="ProductId" Type="Int32" Nullable="false" />
+    <Property Name="StoreId" Type="Int32" Nullable="false" />
+    <Property Name="ListDetailsId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StoreNameTwo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="List" Relationship="Self.FK_dbo_ListDetails_dbo_Lists_ListId" FromRole="ListDetails" ToRole="Lists" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_dbo_ListDetails_dbo_Products_ProductId" FromRole="ListDetails" ToRole="Products" />
+    <NavigationProperty Name="Store" Relationship="Self.FK_dbo_ListDetails_dbo_Stores_StoreId" FromRole="ListDetails" ToRole="Stores" />
+  </EntityType>
+  <EntityType Name="List">
+    <Key>
+      <PropertyRef Name="ListId" />
+    </Key>
+    <Property Name="ListId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerId" Type="Int32" Nullable="false" />
+    <Property Name="ListDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_dbo_Lists_dbo_Customers_CustomerId" FromRole="Lists" ToRole="Customers" />
+    <NavigationProperty Name="ListDetails" Relationship="Self.FK_dbo_ListDetails_dbo_Lists_ListId" FromRole="Lists" ToRole="ListDetails" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CategoryId" Type="Int32" Nullable="false" />
+    <Property Name="IsSelected" Type="Boolean" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Quantity" Type="Int32" />
+    <NavigationProperty Name="Category" Relationship="Self.FK_dbo_Products_dbo_Products_CategoryId" FromRole="Products" ToRole="Categories" />
+    <NavigationProperty Name="ListDetails" Relationship="Self.FK_dbo_ListDetails_dbo_Products_ProductId" FromRole="Products" ToRole="ListDetails" />
+  </EntityType>
+  <EntityType Name="Store">
+    <Key>
+      <PropertyRef Name="StoreId" />
+    </Key>
+    <Property Name="StoreId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StoreName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StoreAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StoreCity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StoreState" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="StoreZipCode" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="IsSelected" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="ListDetails" Relationship="Self.FK_dbo_ListDetails_dbo_Stores_StoreId" FromRole="Stores" ToRole="ListDetails" />
+  </EntityType>
+  <Association Name="FK_dbo_Products_dbo_Products_CategoryId">
+    <End Role="Categories" Type="Self.Category" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Products" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Lists_dbo_Customers_CustomerId">
+    <End Role="Customers" Type="Self.Customer" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Lists" Type="Self.List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustomerId" />
+      </Principal>
+      <Dependent Role="Lists">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_ListDetails_dbo_Lists_ListId">
+    <End Role="Lists" Type="Self.List" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ListDetails" Type="Self.ListDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lists">
+        <PropertyRef Name="ListId" />
+      </Principal>
+      <Dependent Role="ListDetails">
+        <PropertyRef Name="ListId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_ListDetails_dbo_Products_ProductId">
+    <End Role="Products" Type="Self.Product" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ListDetails" Type="Self.ListDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="ListDetails">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_ListDetails_dbo_Stores_StoreId">
+    <End Role="Stores" Type="Self.Store" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ListDetails" Type="Self.ListDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Stores">
+        <PropertyRef Name="StoreId" />
+      </Principal>
+      <Dependent Role="ListDetails">
+        <PropertyRef Name="StoreId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="ListDetails" EntityType="Self.ListDetail" />
+    <EntitySet Name="Lists" EntityType="Self.List" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="Stores" EntityType="Self.Store" />
+    <AssociationSet Name="FK_dbo_Products_dbo_Products_CategoryId" Association="Self.FK_dbo_Products_dbo_Products_CategoryId">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Lists_dbo_Customers_CustomerId" Association="Self.FK_dbo_Lists_dbo_Customers_CustomerId">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Lists" EntitySet="Lists" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_ListDetails_dbo_Lists_ListId" Association="Self.FK_dbo_ListDetails_dbo_Lists_ListId">
+      <End Role="Lists" EntitySet="Lists" />
+      <End Role="ListDetails" EntitySet="ListDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_ListDetails_dbo_Products_ProductId" Association="Self.FK_dbo_ListDetails_dbo_Products_ProductId">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ListDetails" EntitySet="ListDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_ListDetails_dbo_Stores_StoreId" Association="Self.FK_dbo_ListDetails_dbo_Stores_StoreId">
+      <End Role="Stores" EntitySet="Stores" />
+      <End Role="ListDetails" EntitySet="ListDetails" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,159 @@
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\GroceryList.dll.config
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\GroceryList.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\GroceryList.pdb
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Antlr3.Runtime.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\EntityFramework.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\EntityFramework.SqlServer.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Security.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Newtonsoft.Json.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Owin.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\System.Web.Helpers.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\System.Web.Mvc.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\System.Web.Optimization.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\System.Web.Razor.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\System.Web.WebPages.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\System.Web.WebPages.Razor.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\WebGrease.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\System.Web.Helpers.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\System.Web.Mvc.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\System.Web.Optimization.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\System.Web.Razor.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\System.Web.WebPages.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\System.Web.WebPages.Razor.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Antlr3.Runtime.pdb
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Newtonsoft.Json.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\EntityFramework.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\EntityFramework.SqlServer.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Security.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\obj\Debug\GroceryList.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\obj\Debug\GroceryList.pdb
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\GroceryList\obj\Debug\GroceryList.csprojResolveAssemblyReference.cache
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\GroceryList.dll.config
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\GroceryList.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\GroceryList.pdb
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Antlr3.Runtime.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\EntityFramework.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\EntityFramework.SqlServer.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Security.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Newtonsoft.Json.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Owin.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\System.Web.Helpers.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\System.Web.Mvc.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\System.Web.Optimization.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\System.Web.Razor.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\System.Web.WebPages.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\System.Web.WebPages.Razor.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\WebGrease.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\System.Web.Helpers.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\System.Web.Mvc.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\System.Web.Optimization.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\System.Web.Razor.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\System.Web.WebPages.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\System.Web.WebPages.Razor.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Antlr3.Runtime.pdb
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Newtonsoft.Json.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\EntityFramework.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\EntityFramework.SqlServer.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Security.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\obj\Debug\GroceryList.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\obj\Debug\GroceryList.pdb
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\GroceryList\obj\Debug\GroceryList.csprojResolveAssemblyReference.cache
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\obj\Debug\GroceryList.csprojResolveAssemblyReference.cache
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\GroceryList.dll.config
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\GroceryList.dll
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\GroceryList.pdb
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\Antlr3.Runtime.dll
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\Owin.dll
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\RestSharp.dll
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\System.Web.Mvc.dll
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\System.Web.Optimization.dll
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\WebGrease.dll
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\RestSharp.xml
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\System.Web.Optimization.xml
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\bin\Antlr3.Runtime.pdb
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\obj\Debug\GroceryList.dll
+C:\Users\Joseph\Documents\UofL\Senior Year\CIS411\Joe W and Joe M's stuff\GroceryList\obj\Debug\GroceryList.pdb
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\Joe W and Joe M's stuff integrated\Joe W and Joe M's stuff\GroceryList\bin\GroceryList.dll.config
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\Joe W and Joe M's stuff integrated\Joe W and Joe M's stuff\GroceryList\bin\GroceryList.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\Joe W and Joe M's stuff integrated\Joe W and Joe M's stuff\GroceryList\bin\GroceryList.pdb
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\Joe W and Joe M's stuff integrated\Joe W and Joe M's stuff\GroceryList\obj\Debug\GroceryList.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current\Joe W and Joe M's stuff integrated\Joe W and Joe M's stuff\GroceryList\obj\Debug\GroceryList.pdb
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Joe W and Joe M's stuff integrated\Joe W and Joe M's stuff\GroceryList\bin\GroceryList.dll.config
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Joe W and Joe M's stuff integrated\Joe W and Joe M's stuff\GroceryList\bin\GroceryList.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Joe W and Joe M's stuff integrated\Joe W and Joe M's stuff\GroceryList\bin\GroceryList.pdb
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Joe W and Joe M's stuff integrated\Joe W and Joe M's stuff\GroceryList\obj\Debug\GroceryList.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Joe W and Joe M's stuff integrated\Joe W and Joe M's stuff\GroceryList\obj\Debug\GroceryList.pdb
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current2\Current2\GroceryList\obj\Debug\GroceryList.csprojResolveAssemblyReference.cache
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current2\Current2\GroceryList\bin\GroceryList.dll.config
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current2\Current2\GroceryList\bin\GroceryList.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current2\Current2\GroceryList\bin\GroceryList.pdb
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current2\Current2\GroceryList\obj\Debug\GroceryList.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current2\Current2\GroceryList\obj\Debug\GroceryList.pdb
+C:\Users\Nicholas\Desktop\Current2\Current2\GroceryList\bin\GroceryList.dll.config
+C:\Users\Nicholas\Desktop\Current2\Current2\GroceryList\bin\GroceryList.dll
+C:\Users\Nicholas\Desktop\Current2\Current2\GroceryList\bin\GroceryList.pdb
+C:\Users\Nicholas\Desktop\Current2\Current2\GroceryList\obj\Debug\GroceryList.dll
+C:\Users\Nicholas\Desktop\Current2\Current2\GroceryList\obj\Debug\GroceryList.pdb
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current3\GroceryList\bin\GroceryList.dll.config
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current3\GroceryList\bin\GroceryList.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current3\GroceryList\bin\GroceryList.pdb
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current3\GroceryList\obj\Debug\GroceryList.dll
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current3\GroceryList\obj\Debug\GroceryList.pdb
+C:\Users\Joe Woodcox\Google Drive\School\UofL\Spring 15\UofLJuniorBusinessAnalysts\Grocery\Current3\GroceryList\obj\Debug\GroceryList.csprojResolveAssemblyReference.cache
